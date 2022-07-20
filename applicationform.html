@@ -1,63 +1,65 @@
 <html>
-    <head>
-        <title>Application Form</title>
-        <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="index.html">Home</a>| <a href="contactus.html">Contact Us</a>|
+    <a href="gallery.html">Gallery</a>| <a href="aboutus.html">About Us</a>|
+    <a href="studentsdata.html">Students Data</a>|
+    <br />
+    <span>
+      <img src="./images.jpg" width="50px" height="50px" />
+      <h1>PwC Student Website</h1>
+    </span>
 
-    </head>
-    <body>
+    <h2>Application Form</h2>
+    <form>
+      <label for="First name">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
 
-        <h2>Application Form</h2>
-        <h1>PwC Student Website</h1>
-        <form>
-            <label for="First name">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+      <label for="Last name">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
 
-            <label for="Last name">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
+      <label for="Age">Age</label><br />
+      <input type="text" id="fname" name="fname" /><br />
 
-            <label for="Age">Age</label><br>
-            <input type="text" id="fname" name="fname"><br>
+      <label for="State">State:</label><br />
+      <input type="text" id="state" name="state" /><br />
 
-            <label for="State">State:</label><br>
-            <input type="text" id="state" name="state"><br>
+      <label class="gender" for="Gender">Gender:</label><br />
 
-            <label for="Gender">Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="html">Male</label><br />
 
-            <input type="radio" id="male" name="gender" value="Male">
-            <label for="html">Male</label><br>
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="html">Female</label>
 
+      <br />
 
-            <input type="radio" id="female" name="gender" value="Female">
-            <label for="html">Female</label>
+      <label class="courses" for="courses">Courses:</label><br />
 
-            <br>
+      <input type="checkbox" id="courses1" name="courses1" value="JavaScript" />
+      <label for="courses1"> JavaScript</label><br />
 
+      <input
+        type="checkbox"
+        id="courses2"
+        name="courses2"
+        value="Data Science and Data Management"
+      />
+      <label for="courses2"> Data Science and Data Management</label><br />
 
-            <label for="courses">Courses:</label><br>
+      <input type="checkbox" id="courses3" name="courses3" value="C#" />
+      <label for="courses3"> C#</label><br />
 
-            <input type="checkbox" id="courses1" name="courses1" value="JavaScript">
-            <label for="courses1"> JavaScript</label><br>
+      <input type="checkbox" id="courses4" name="courses4" value="Agile" />
+      <label for="courses4"> Agile</label><br />
 
-            <input type="checkbox" id="courses2" name="courses2" value="Data Science and Data Management">
-            <label for="courses2"> Data Science and Data Management</label><br>
+      <input type="checkbox" id="courses5" name="courses5" value="Python" />
+      <label for="courses5"> Python</label><br />
 
-            <input type="checkbox" id="courses3" name="courses3" value="C#">
-            <label for="courses3"> C#</label><br>
-
-            <input type="checkbox" id="courses4" name="courses4" value="Agile">
-            <label for="courses4"> Agile</label><br>
-
-            <input type="checkbox" id="courses5" name="courses5" value="Python">
-            <label for="courses5"> Python</label><br>
-
-            <input type="submit" value="submit">
-
-            
-            
-            
-            
-        </form>
-        
-      
-    </body>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
 </html>
